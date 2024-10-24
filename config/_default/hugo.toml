@@ -3,8 +3,20 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://santry.ru/"
+baseURL = "/"
 defaultContentLanguage = "ru"
+
+timeout = "60s"
+
+[build]
+  writeStats = true
+  
+[build.buildStats]
+  enable = true
+  
+[security]
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^autoprefixer$']
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -66,5 +78,4 @@ enableEmoji = true
       type = 'fragments'
       weight = 10
 
-[build]
-  timeout = "60s"
+
