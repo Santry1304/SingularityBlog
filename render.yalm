@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: hugo-blog
+    env: static
+    buildCommand: hugo --minify
+    publishDir: public
