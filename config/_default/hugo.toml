@@ -6,7 +6,7 @@ theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "/"
 defaultContentLanguage = "ru"
 
-timeout = "60s"
+timeout = "120s"
 
 [build]
   writeStats = true
