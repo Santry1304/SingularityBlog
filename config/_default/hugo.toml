@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "/"
+baseURL = "https://santrys-singularity-blog.onrender.com/"
 defaultContentLanguage = "ru"
 
 timeout = "240s"
