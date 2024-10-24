@@ -1,0 +1,37 @@
+/* Increase the default font size */
+html {
+  font-size: 13pt;
+}
+
+
+
+
+figcaption {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    color: #555555;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.prose img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Исключение для изображений низкого разрешения */
+.article-content img:not([srcset]):not([data-src]) {
+  width: auto;
+}
+
+
+
