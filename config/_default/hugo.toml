@@ -65,3 +65,6 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[build]
+  timeout = "60s"
